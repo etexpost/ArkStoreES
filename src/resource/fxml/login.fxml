@@ -31,7 +31,7 @@
       <Button cancelButton="true" layoutX="49.0" layoutY="240.0" mnemonicParsing="false" text="Відмінити" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="66.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resource/img/logo.png" />
+            <Image url="@../img/logo.png" />
          </image>
       </ImageView>
    </children>
