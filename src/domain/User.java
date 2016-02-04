@@ -100,14 +100,33 @@ public class User {
     @Column(name = "Id")
     private Long id;
 
+    @Column(name = "UserSurname")
     private String UserSurname; /*Прізвище користувача*/
+
+    @Column(name = "UserName")
     private String UserName; /*Ім'я користувача*/
+
+    @Column(name = "UserMidName")
     private String UserMidName; /*По батькові користувача*/
+
+    @Column(name = "Login")
     private String login; /*Логін користувача*/
+
+    @Column(name = "Password")
     private String password; /*Пароль користувача*/
+
+    @Column(name = "Status")
     private UserStatus status; /*статус - адміністратор, менеджер і т.д.*/
+
+    @Column(name = "DateOfBirth")
     private LocalGregorianCalendar.Date dateOfBirth; /*Дата народження*/
+
+    @Column(name = "DateStartWork")
     private LocalGregorianCalendar.Date dateStartWork; /*Дата початку роботи*/
+
+    @Column(name = "DateStopWork")
     private LocalGregorianCalendar.Date dateStopWork; /*Дата завершення роботи*/
+
+    @Column(name = "AccessStatus")
     private boolean accessStatus; /*статус доступу*/
 }
