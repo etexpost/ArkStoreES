@@ -8,7 +8,7 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "UserStatus")
+@Table(name = "User_Status")
 public class UserStatus {
 
     UserStatus () {
