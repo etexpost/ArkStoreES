@@ -1,6 +1,6 @@
 package dao;
 
-import domain.User;
+import domain.UserStatus;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import java.util.List;
  */
 public interface UserStatusDao {
 
-    Long create(User user);
-    User read(Long id);
-    void update(User user);
-    void delete(User user);
-    List<User> findAll();
+    Long create(UserStatus userStatus);
+    UserStatus read(Long id);
+    void update(UserStatus userStatus);
+    void delete(UserStatus userStatus);
+    List<UserStatus> findAll();
 
 }

@@ -1,7 +1,7 @@
 package dao.daoimpl;
 
 import dao.UserStatusDao;
-import domain.User;
+import domain.UserStatus;
 
 import java.util.List;
 
@@ -10,28 +10,30 @@ import java.util.List;
  */
 public class UserStatusDaoImpl implements UserStatusDao {
 
+
     @Override
-    public Long create(User user) {
+    public Long create(UserStatus userStatus) {
         return null;
     }
 
     @Override
-    public User read(Long id) {
+    public UserStatus read(Long id) {
         return null;
     }
 
+
     @Override
-    public void update(User user) {
+    public void update(UserStatus userStatus) {
 
     }
 
     @Override
-    public void delete(User user) {
+    public void delete(UserStatus userStatus) {
 
     }
 
     @Override
-    public List<User> findAll() {
+    public List<UserStatus> findAll() {
         return null;
     }
 }
