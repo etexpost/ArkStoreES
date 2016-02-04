@@ -30,11 +30,13 @@ public class UserStatus {
     public void setStatus(String status) {
         this.status = status;
     }
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "Id")
     private Long id;
 
+    @Column(name = "Status")
     private String status;
 
 }

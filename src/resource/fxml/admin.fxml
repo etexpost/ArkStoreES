@@ -24,22 +24,7 @@
       <content>
         <AnchorPane>
                <children>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="27.0" layoutY="22.0" mnemonicParsing="false" text="Користувачі" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
-                     <graphic>
-                        <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/users.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="165.0" layoutY="22.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="95.0" text="Клієнти" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="22.0">
+                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="24.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="95.0" text="Клієнти" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="24.0">
                      <graphic>
                         <ImageView fitHeight="79.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -54,7 +39,7 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="312.0" layoutY="22.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="138.0" text="ТМЦ" AnchorPane.leftAnchor="312.0" AnchorPane.topAnchor="22.0">
+                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="165.0" layoutY="22.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="138.0" text="ТМЦ" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="22.0">
                      <graphic>
                         <ImageView fitHeight="60.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -224,7 +209,54 @@
     </Tab>
       <Tab text="Налаштування">
          <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="24.0" layoutY="30.0" mnemonicParsing="false" text="Користувачі">
+                     <graphic>
+                        <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                  </Button>
+                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="163.0" layoutY="30.0" mnemonicParsing="false" text="Довідник прав">
+                     <graphic>
+                        <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/setting/user_right.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="309.0" layoutY="30.0" mnemonicParsing="false" text="Налаштування системи">
+                     <graphic>
+                        <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/setting/gears-300x300.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+               </children></AnchorPane>
          </content>
       </Tab>
       <Tab text="Продажі">
