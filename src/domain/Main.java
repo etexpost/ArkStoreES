@@ -13,10 +13,10 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("../resource/fxml/login.fxml"));
         primaryStage.setTitle("ArkStore");
         primaryStage.setMinHeight(350);
-        primaryStage.setMinWidth(350);
+        primaryStage.setMinWidth(450);
         primaryStage.setMaxHeight(350);
-        primaryStage.setMaxWidth(350);
-        primaryStage.setScene(new Scene(root, 300, 300));
+        primaryStage.setMaxWidth(450);
+        primaryStage.setScene(new Scene(root, 350, 450));
         primaryStage.show();
     }
 
