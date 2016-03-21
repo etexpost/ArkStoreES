@@ -22,8 +22,7 @@ public class Login {
         login.setScene(new Scene(root, 440, 250));
         login.setResizable(false);
         login.initModality(Modality.WINDOW_MODAL);
-
-//        login.initOwner(((Node) actionEvent.getSource()).getScene().getWindow());
+        login.initOwner(login.getOwner());
         login.show();
         } catch (IOException e) {
             e.printStackTrace();
