@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class Login {
 
-    public void loginWindow() {
+    public void openLoginWindow() {
         Stage login = new Stage();
         Parent root = null;
         try {
@@ -21,8 +21,8 @@ public class Login {
         login.setTitle("ArkStore - Login");
         login.setScene(new Scene(root, 440, 250));
         login.setResizable(false);
+        login.setAlwaysOnTop(true);
         login.initModality(Modality.WINDOW_MODAL);
-        login.initOwner(login.getOwner());
         login.show();
         } catch (IOException e) {
             e.printStackTrace();
