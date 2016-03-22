@@ -25,11 +25,21 @@ public class LoginController {
     @FXML
     private TextField txtPassword;
 
-    public void checkLogin(ActionEvent actionEvent) {
+    public void authentic(ActionEvent actionEvent) {
+        String login = txtLogin.getText();
+        String password = txtPassword.getText();
+        if (login != ""  password != "") {
+            System.out.println("Login: " + login + " Password: " + password );
+        } else {
+            //** вывести сообщение о том, что нужно ввести логин и пароль
+            System.out.println("Введите логин и пароль");
+        }
 
-        System.out.println("Нажата кнопка ВХОД");
+
 
     }
+
+
 
 
 }
