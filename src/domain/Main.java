@@ -1,19 +1,23 @@
 package domain;
 
-import Controller.Login;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-import java.awt.*;
-import java.io.IOException;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+    /** ініціалізація параметрів поточного користувача **/
+
+        User curentUser = new User();
+        initCurentUser(curentUser);
+
+        Login loginWindow = new Login();
+        loginWindow.openLoginWindow();
+
+
+
+ /**
         Parent root = null;
         try {
             root = FXMLLoader.load(getClass().getResource("../resource/fxml/mainWindow.fxml"));
@@ -25,11 +29,16 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, screenSize.width, screenSize.height));
         primaryStage.setMaximized(true);
         primaryStage.show();
+**/
 
-        Login loginWindow = new Login();
-        loginWindow.openLoginWindow();
 
     }
+
+    /** ініціалізація параметрів поточного користувача **/
+    private static void initCurentUser (User curentUser) {
+        curentUser.setAccessStatus(false);
+        curentUser.setStatus(null);
+    };
 
 
     public static void main(String[] args) {
