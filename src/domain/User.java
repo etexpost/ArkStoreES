@@ -5,11 +5,11 @@ import sun.util.calendar.LocalGregorianCalendar;
 import javax.persistence.*;
 
 /**
- * Created by Андрей on 20.01.2016.
+ * Created by ?????? on 20.01.2016.
  */
 
 @Entity
-@Table(name = "users") /*Дані про користувачів зберігаються в таблиці users */
+@Table(name = "users") /*??? ??? ???????????? ??????????? ? ??????? users */
 public class User {
     User () {
 
@@ -101,32 +101,32 @@ public class User {
     private Long id;
 
     @Column(name = "User_Surname")
-    private String UserSurname; /*Прізвище користувача*/
+    private String UserSurname; /*РџСЂС–Р·РІРёС‰Рµ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°*/
 
     @Column(name = "User_Name")
-    private String UserName; /*Ім'я користувача*/
+    private String UserName; /*С–Рј'СЏ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°*/
 
     @Column(name = "User_Mid_Name")
-    private String UserMidName; /*По батькові користувача*/
+    private String UserMidName; /*РџРѕ Р±Р°С‚СЊРєРѕРІС– РєРѕСЂРёСЃС‚СѓРІР°С‡Р°*/
 
     @Column(name = "Login")
-    private String login; /*Логін користувача*/
+    private String login; /*???? ???????????*/
 
     @Column(name = "Password")
-    private String password; /*Пароль користувача*/
+    private String password; /*?????? ???????????*/
 
     @Column(name = "Status")
-    private UserStatus status; /*статус - адміністратор, менеджер і т.д.*/
+    private UserStatus status; /*?????? - ???????????, ???????? ? ?.?.*/
 
     @Column(name = "Date_Of_Birth")
-    private LocalGregorianCalendar.Date dateOfBirth; /*Дата народження*/
+    private LocalGregorianCalendar.Date dateOfBirth; /*???? ??????????*/
 
     @Column(name = "Date_Start_Work")
-    private LocalGregorianCalendar.Date dateStartWork; /*Дата початку роботи*/
+    private LocalGregorianCalendar.Date dateStartWork; /*???? ??????? ??????*/
 
     @Column(name = "Date_Stop_Work")
-    private LocalGregorianCalendar.Date dateStopWork; /*Дата завершення роботи*/
+    private LocalGregorianCalendar.Date dateStopWork; /*???? ?????????? ??????*/
 
     @Column(name = "Access_Status")
-    private boolean accessStatus; /*статус доступу*/
+    private boolean accessStatus; /*?????? ???????*/
 }
