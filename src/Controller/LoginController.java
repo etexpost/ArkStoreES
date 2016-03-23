@@ -28,11 +28,14 @@ public class LoginController {
     public void authentic(ActionEvent actionEvent) {
         String login = txtLogin.getText();
         String password = txtPassword.getText();
-        if (login != ""  password != "") {
-            System.out.println("Login: " + login + " Password: " + password );
-        } else {
+        System.out.println(login.toString());
+        System.out.println(password.toString());
+
+        if (login == " " || password == " "){
             //** вывести сообщение о том, что нужно ввести логин и пароль
             System.out.println("Введите логин и пароль");
+        } else {
+              System.out.println("Login: " + login + " Password: " + password );
         }
 
 
