@@ -19,16 +19,21 @@
                           <items>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                                  <children>
-                                    <TableView layoutX="14.0" layoutY="14.0" prefHeight="619.0" prefWidth="275.0">
+                                    <TableView layoutX="14.0" layoutY="85.0" prefHeight="470.0" prefWidth="275.0">
                                       <columns>
                                         <TableColumn editable="false" prefWidth="272.0" text="Юридичні особи" />
                                       </columns>
                                     </TableView>
+                                    <Text fill="#2513eb" layoutX="130.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПОШУК" />
+                                    <TextField layoutX="14.0" layoutY="42.0" prefHeight="25.0" prefWidth="275.0" />
                                  </children>
                               </AnchorPane>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="627.0" prefWidth="702.0">
                                  <children>
-                                    <TextField layoutX="111.0" layoutY="14.0" prefHeight="25.0" prefWidth="573.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="103.0" layoutX="11.0" layoutY="227.0" stroke="BLACK" strokeType="INSIDE" width="688.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="134.0" layoutX="11.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="687.0" />
+                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="212.0" layoutX="11.0" layoutY="341.0" stroke="BLACK" strokeType="INSIDE" width="687.0" />
+                                    <TextField layoutX="111.0" layoutY="14.0" prefHeight="25.0" prefWidth="574.0" />
                                     <Text layoutX="14.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Повна назва" textAlignment="CENTER" wrappingWidth="93.13671875">
                                        <stroke>
                                           <LinearGradient endX="1.0" endY="1.0">
@@ -42,78 +47,76 @@
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="160.0" layoutX="11.0" layoutY="227.0" stroke="BLACK" strokeType="INSIDE" width="680.0" />
-                                    <TextField layoutX="82.0" layoutY="139.0" prefHeight="25.0" prefWidth="221.0" />
+                                    <TextField layoutX="82.0" layoutY="139.0" prefHeight="25.0" prefWidth="266.0" />
                                     <Text layoutX="327.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Адреса:">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <Text layoutX="34.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Місто:">
+                                    <Text layoutX="33.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Місто:">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="88.0" layoutY="258.0" prefHeight="25.0" prefWidth="216.0" />
-                                    <Text layoutX="32.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вулиця">
+                                    <TextField layoutX="89.0" layoutY="254.0" prefHeight="25.0" prefWidth="216.0" />
+                                    <Text layoutX="32.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вулиця">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="420.0" layoutY="310.0" prefHeight="25.0" prefWidth="80.0" />
-                                    <Text layoutX="338.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№ будинку">
+                                    <TextField layoutX="465.0" layoutY="284.0" prefHeight="25.0" prefWidth="74.0" />
+                                    <Text layoutX="382.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№ будинку">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <Text layoutX="526.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№ офісу">
+                                    <Text layoutX="552.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№ офісу">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="592.0" layoutY="312.0" prefHeight="25.0" prefWidth="80.0" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="161.0" layoutX="11.0" layoutY="392.0" stroke="BLACK" strokeType="INSIDE" width="680.0" />
-                                    <Text layoutX="327.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контакти" textAlignment="CENTER">
+                                    <TextField layoutX="613.0" layoutY="284.0" prefHeight="25.0" prefWidth="72.0" />
+                                    <Text layoutX="322.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контакти" textAlignment="CENTER">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="111.0" layoutY="473.0" prefHeight="25.0" prefWidth="251.0" />
-                                    <Text layoutX="41.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон 1">
+                                    <TextField layoutX="107.0" layoutY="452.0" prefHeight="25.0" prefWidth="251.0" />
+                                    <Text layoutX="51.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тел. 1">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="111.0" layoutY="473.0" prefHeight="25.0" prefWidth="252.0" />
-                                    <Text layoutX="41.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Телефон 2">
+                                    <TextField layoutX="106.0" layoutY="419.0" prefHeight="25.0" prefWidth="252.0" />
+                                    <Text layoutX="51.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тел. 2">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="111.0" layoutY="434.0" prefHeight="25.0" prefWidth="560.0" />
-                                    <Text layoutX="42.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контактна" textAlignment="CENTER">
+                                    <TextField layoutX="106.0" layoutY="380.0" prefHeight="25.0" prefWidth="579.0" />
+                                    <Text layoutX="37.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контактна" textAlignment="CENTER">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <Text layoutX="55.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="особа" textAlignment="CENTER">
+                                    <Text layoutX="50.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="особа" textAlignment="CENTER">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <Text layoutX="385.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Факс:">
+                                    <Text layoutX="53.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Факс:">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <Text layoutX="386.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e-mail">
+                                    <Text layoutX="382.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="e-mail">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="435.0" layoutY="469.0" prefHeight="25.0" prefWidth="236.0" />
-                                    <TextField layoutX="433.0" layoutY="502.0" prefHeight="25.0" prefWidth="238.0" />
-                                    <Text layoutX="32.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="МФО">
+                                    <TextField layoutX="107.0" layoutY="488.0" prefHeight="25.0" prefWidth="251.0" />
+                                    <TextField layoutX="437.0" layoutY="488.0" prefHeight="25.0" prefWidth="248.0" />
+                                    <Text layoutX="38.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="МФО">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
@@ -130,19 +133,19 @@
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="83.0" layoutY="107.0" prefHeight="25.0" prefWidth="602.0" />
+                                    <TextField layoutX="81.0" layoutY="107.0" prefHeight="25.0" prefWidth="604.0" />
                                     <Text layoutX="291.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Платіжні реквізити" textAlignment="CENTER">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
                                     <TextField layoutX="499.0" layoutY="172.0" prefHeight="25.0" prefWidth="186.0" />
-                                    <Text layoutX="462.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ІПН">
+                                    <Text layoutX="467.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ІПН">
                                        <font>
                                           <Font size="14.0" />
                                        </font>
                                     </Text>
-                                    <TextField layoutX="99.0" layoutY="311.0" prefHeight="25.0" prefWidth="220.0" />
+                                    <TextField layoutX="89.0" layoutY="284.0" prefHeight="25.0" prefWidth="281.0" />
                                     <Text layoutX="42.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="р/р">
                                        <font>
                                           <Font size="14.0" />
@@ -174,6 +177,24 @@
                                           </LinearGradient>
                                        </stroke>
                                     </Text>
+                                    <Text layoutX="327.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Поштовий індекс">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <TextField layoutX="442.0" layoutY="254.0" prefHeight="25.0" prefWidth="74.0" />
+                                    <Text layoutX="374.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Т/моб. 1">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="375.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Т/моб. 2">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Text>
+                                    <TextField layoutX="435.0" layoutY="451.0" prefHeight="25.0" prefWidth="251.0" />
+                                    <TextField layoutX="434.0" layoutY="418.0" prefHeight="25.0" prefWidth="252.0" />
                                  </children>
                               </AnchorPane>
                           </items>
