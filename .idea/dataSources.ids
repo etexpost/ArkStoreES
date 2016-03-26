@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="resource:hibernate.cfg.xml/Hibernate" uuid="cc4c2a87-1e85-416f-af1c-d0583c8a6b50">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
