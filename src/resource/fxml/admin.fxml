@@ -15,16 +15,108 @@
 
 <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="938.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
   <tabs>
-    <Tab text="Звіти">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-      </content>
-    </Tab>
+      <Tab text="Продажі">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="165.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Резерви" textAlignment="CENTER" wrapText="true">
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="65.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/reserve.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="308.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Пакувальні листи" textAlignment="CENTER" wrapText="true">
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/paklist.gif" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="452.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Видаткові накладні" textAlignment="CENTER" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="71.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/nakladny.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="597.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Зворотні накладні" textAlignment="CENTER" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="75.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/return.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="25.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Рахунки- фактури" textAlignment="CENTER" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="69.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/involer.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+               </children></AnchorPane>
+         </content>
+      </Tab>
     <Tab text="Довідники">
       <content>
         <AnchorPane>
                <children>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="24.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="95.0" text="Клієнти" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="24.0">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="204.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Прибуткові накладні" textAlignment="CENTER" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="75.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/pribut_nakladn.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="24.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Клієнти" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
                      <graphic>
                         <ImageView fitHeight="79.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -39,22 +131,22 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="165.0" layoutY="22.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="138.0" text="ТМЦ" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="22.0">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="165.0" layoutY="20.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="ТМЦ" textAlignment="CENTER" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="20.0">
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
                      <graphic>
-                        <ImageView fitHeight="60.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="58.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../img/tmc.png" />
                            </image>
                         </ImageView>
                      </graphic>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="226.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="145.0" text="Актуальні ціни">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="312.0" layoutY="20.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Актуальні ціни" textAlignment="CENTER" wrapText="true">
                      <opaqueInsets>
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </opaqueInsets>
@@ -62,76 +154,16 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                      <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="76.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../img/Journal_price.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="196.0" layoutY="226.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="145.0" text="Рахунки-фактури">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="455.0" layoutY="20.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Заявки на закупку" textAlignment="CENTER" wrapText="true">
                      <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/involer.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="371.0" layoutY="226.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="145.0" text="Резерви">
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                     <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/reserve.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="545.0" layoutY="226.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="145.0" text="Пакувальні листи">
-                     <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/paklist.gif" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="720.0" layoutY="226.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="145.0" text="Видаткові накладні">
-                     <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/nakladny.jpg" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="408.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="145.0" text="Заявки на закупку">
-                     <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="76.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../img/zakup_zayavka.png" />
                            </image>
@@ -144,9 +176,9 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="196.0" layoutY="408.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="155.0" text="Журнал пошивів">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="737.0" layoutY="20.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Журнал пошивів" textAlignment="CENTER" wrapText="true">
                      <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="76.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../img/poshiv.png" />
                            </image>
@@ -159,37 +191,7 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="387.0" layoutY="408.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="158.0" text="Прибуткові накладні">
-                     <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/pribut_nakladn.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="575.0" layoutY="408.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="147.0" text="Зворотні накладні">
-                     <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../img/return.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <opaqueInsets>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                     </padding>
-                  </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="736.0" layoutY="408.0" mnemonicParsing="false" prefHeight="156.0" prefWidth="126.0" text="Журнал оплат">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="596.0" layoutY="20.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Журнал оплат" textAlignment="CENTER" wrapText="true">
                      <graphic>
                         <ImageView fitHeight="101.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -207,11 +209,123 @@
                </children></AnchorPane>
       </content>
     </Tab>
+    <Tab text="Звіти">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="28.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Не закриті рахунки" textAlignment="CENTER" wrapText="true">
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <graphic>
+                        <ImageView fitHeight="76.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/no_pay_bill.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="5.0" layoutX="170.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Звіт по закритим рахункам" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="64.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/paid_bill.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="15.0" layoutX="308.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Звіт по роботі з клієнтами" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="68.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/client_analiz.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="15.0" layoutX="446.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Звіт по новим клієнтам" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="68.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/new_client.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="30.0" layoutX="585.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Резерви" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="73.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/reserve.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="15.0" layoutX="724.0" layoutY="21.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Простррочені резерви" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/warning_reserve.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="28.0" layoutY="207.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Звіт по розрахункам" textAlignment="CENTER" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="76.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/report/paid_money.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+               </children></AnchorPane>
+      </content>
+    </Tab>
       <Tab text="Налаштування">
          <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="24.0" layoutY="30.0" mnemonicParsing="false" text="Користувачі">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="24.0" layoutY="30.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Користувачі" textAlignment="CENTER" wrapText="true">
                      <graphic>
                         <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -226,7 +340,7 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </opaqueInsets>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="163.0" layoutY="30.0" mnemonicParsing="false" text="Довідник прав">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="170.0" layoutY="30.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Довідник прав" textAlignment="CENTER" wrapText="true">
                      <graphic>
                         <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -241,7 +355,7 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                   </Button>
-                  <Button alignment="TOP_LEFT" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="309.0" layoutY="30.0" mnemonicParsing="false" text="Налаштування системи">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="312.0" layoutY="30.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Налаштування системи" textAlignment="CENTER" wrapText="true">
                      <graphic>
                         <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -257,11 +371,6 @@
                      </padding>
                   </Button>
                </children></AnchorPane>
-         </content>
-      </Tab>
-      <Tab text="Продажі">
-         <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
          </content>
       </Tab>
   </tabs>
