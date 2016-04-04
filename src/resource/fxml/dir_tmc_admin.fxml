@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="723.0" prefWidth="1026.0">
+         <children>
+            <TabPane prefHeight="725.0" prefWidth="1024.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Каталог ТМЦ">
+                     <content>
+                        <SplitPane dividerPositions="0.3408203125" prefHeight="644.0" prefWidth="999.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Text fill="#0030ff" layoutX="144.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПОШУК" />
+                                    <TextField layoutX="15.0" layoutY="38.0" prefHeight="25.0" prefWidth="317.0" promptText="Назва групи ТМЦ" />
+                                    <TreeTableView layoutX="14.0" layoutY="125.0" prefHeight="434.0" prefWidth="318.0">
+                                      <columns>
+                                        <TreeTableColumn prefWidth="303.0" text="Група ТМЦ" />
+                                      </columns>
+                                    </TreeTableView>
+                                    <Button layoutX="18.0" layoutY="585.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" text="Додати групу" textFill="#0030ff">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="149.0" layoutY="585.0" mnemonicParsing="false" text="Редагувати групу" textFill="#0030ff">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="19.0" layoutY="642.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="121.0" text="Видалити групу" textFill="#ee0000">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="116.0" layoutY="81.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="98.0" text="Знайти" textFill="#0030ff">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="625.0" prefWidth="702.0">
+                                 <children>
+                                    <TableView layoutX="13.0" layoutY="126.0" prefHeight="435.0" prefWidth="647.0">
+                                      <columns>
+                                        <TableColumn minWidth="0.0" prefWidth="233.0" text="Коротка назва" />
+                                        <TableColumn prefWidth="394.0" text="Повна назва" />
+                                      </columns>
+                                    </TableView>
+                                    <TextField layoutX="16.0" layoutY="38.0" prefHeight="25.0" prefWidth="642.0" promptText="Назва ТМЦ" />
+                                    <Text fill="#0030ff" layoutX="315.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПОШУК" />
+                                    <Button layoutX="13.0" layoutY="639.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="170.0" text="Видалити позицію" textFill="#ee0000">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="195.0" layoutY="588.0" mnemonicParsing="false" text="Редагувати позицію" textFill="#0030ff">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="14.0" layoutY="588.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="169.0" text="Додати нову позицію" textFill="#0030ff">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="287.0" layoutY="79.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="98.0" text="Знайти" textFill="#0030ff">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Актуальні ціни">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <DatePicker layoutX="14.0" layoutY="40.0" prefHeight="25.0" prefWidth="201.0" />
+                              <Text layoutX="75.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Робоча дата">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="14.0" layoutY="627.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" text="Зберегти зміни" textFill="#0030ff">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="154.0" layoutY="627.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="143.0" text="Генерувати прайс" textFill="#0030ff">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="860.0" layoutY="627.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="143.0" text="Скасувати зміни" textFill="#0030ff">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <TreeTableView layoutX="15.0" layoutY="75.0" prefHeight="524.0" prefWidth="992.0">
+                                <columns>
+                                  <TreeTableColumn prefWidth="214.0" text="Група ТМЦ" />
+                                  <TreeTableColumn prefWidth="491.0" text="Повна назва" />
+                                    <TreeTableColumn prefWidth="113.0" text="Од. виміру" />
+                                    <TreeTableColumn prefWidth="150.0" text="Ціна продажу" />
+                                </columns>
+                              </TreeTableView>
+                              <TextField layoutX="233.0" layoutY="40.0" prefHeight="25.0" prefWidth="487.0" promptText="Повна назва " />
+                              <Button layoutX="730.0" layoutY="38.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="103.0" text="Пошук" textFill="#0030ff">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
