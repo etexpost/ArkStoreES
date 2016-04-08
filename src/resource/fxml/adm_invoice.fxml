@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="743.0">
+         <children>
+            <Text layoutX="197.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Рахунок-фактура №" textAlignment="CENTER" wrappingWidth="196.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="65.0" layoutY="428.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="123.0" text="Зберегти зміни" textFill="#0030ff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="555.0" layoutY="428.0" mnemonicParsing="false" text="Скасувати зміни" textFill="#ee0000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="387.0" layoutY="35.0" text="Label" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
