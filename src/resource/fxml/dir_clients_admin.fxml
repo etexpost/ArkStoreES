@@ -7,7 +7,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DirClientsAdmin">
   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="723.0" prefWidth="1026.0">
          <children>
@@ -612,7 +612,7 @@
                                     <TextField layoutX="435.0" layoutY="451.0" prefHeight="25.0" prefWidth="251.0" />
                                     <TextField layoutX="434.0" layoutY="418.0" prefHeight="25.0" prefWidth="252.0" />
                                     <ChoiceBox layoutX="197.0" layoutY="566.0" prefHeight="25.0" prefWidth="502.0" />
-                                    <Button layoutX="16.0" layoutY="632.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Зберегти зміни" textFill="#0030ff">
+                                    <Button fx:id="btnSaveChanges" layoutX="16.0" layoutY="632.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="Зберегти зміни" textFill="#0030ff">
                                        <font>
                                           <Font size="14.0" />
                                        </font>

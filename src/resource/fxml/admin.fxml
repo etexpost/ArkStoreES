@@ -116,7 +116,7 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </padding>
                   </Button>
-                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="24.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Клієнти" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+                  <Button fx:id="btnClients" alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="20.0" layoutY="24.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Клієнти" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
                      <graphic>
                         <ImageView fitHeight="79.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -340,7 +340,7 @@
                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                      </opaqueInsets>
                   </Button>
-                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="170.0" layoutY="30.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Довідник прав" textAlignment="CENTER" wrapText="true">
+                  <Button alignment="TOP_CENTER" contentDisplay="BOTTOM" graphicTextGap="10.0" layoutX="170.0" layoutY="30.0" maxHeight="160.0" maxWidth="120.0" minHeight="160.0" minWidth="120.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="120.0" text="Права користувачів" textAlignment="CENTER" wrapText="true">
                      <graphic>
                         <ImageView fitHeight="74.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
                            <image>
