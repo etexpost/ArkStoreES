@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="743.0">
+         <children>
+            <Text layoutX="189.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Облікова картка ТМЦ" textAlignment="CENTER" wrappingWidth="385.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Повне найменування">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Скорочене найменування">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Одиниці виміру">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Прайсова ціна">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <CheckBox layoutX="68.0" layoutY="342.0" mnemonicParsing="false" text="Складський товар">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </CheckBox>
+            <TextField layoutX="224.0" layoutY="118.0" prefHeight="25.0" prefWidth="455.0" />
+            <TextField layoutX="246.0" layoutY="158.0" prefHeight="25.0" prefWidth="436.0" />
+            <TextField layoutX="183.0" layoutY="253.0" />
+            <Text layoutX="331.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Розмір">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="527.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Колір">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Група товарів">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ChoiceBox layoutX="181.0" layoutY="76.0" prefHeight="25.0" prefWidth="499.0" />
+            <ChoiceBox layoutX="183.0" layoutY="196.0" prefHeight="25.0" prefWidth="112.0" />
+            <ChoiceBox layoutX="382.0" layoutY="196.0" prefHeight="25.0" prefWidth="112.0" />
+            <ChoiceBox layoutX="571.0" layoutY="196.0" prefHeight="25.0" prefWidth="112.0" />
+            <Button layoutX="65.0" layoutY="428.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="123.0" text="Зберегти зміни" textFill="#0030ff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="555.0" layoutY="428.0" mnemonicParsing="false" text="Скасувати зміни" textFill="#ee0000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

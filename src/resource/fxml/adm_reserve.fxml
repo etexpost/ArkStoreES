@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="889.0" prefWidth="1025.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="885.0" prefWidth="1032.0">
+         <children>
+            <Text layoutX="270.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="РЕЗЕРВ №" textAlignment="CENTER" wrappingWidth="107.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="59.0" layoutY="834.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="255.0" text="Сформувати пакувальний лист" textFill="#0030ff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Text layoutX="488.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="від" textAlignment="CENTER" wrappingWidth="50.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField layoutX="387.0" layoutY="14.0" prefHeight="25.0" prefWidth="109.0" />
+            <Text layoutX="176.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Постачальник">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="175.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Платник">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TableView layoutX="24.0" layoutY="124.0" prefHeight="689.0" prefWidth="978.0">
+              <columns>
+                <TableColumn prefWidth="49.0" text="№" />
+                <TableColumn prefWidth="726.0" text="Найменування" />
+                  <TableColumn prefWidth="94.0" text="Кількість" />
+                  <TableColumn prefWidth="108.0" text="Од. виміру" />
+              </columns>
+            </TableView>
+            <TextField layoutX="281.0" layoutY="52.0" prefHeight="25.0" prefWidth="569.0" />
+            <TextField layoutX="245.0" layoutY="86.0" prefHeight="25.0" prefWidth="604.0" />
+            <TextField layoutX="531.0" layoutY="13.0" prefHeight="25.0" prefWidth="198.0" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
